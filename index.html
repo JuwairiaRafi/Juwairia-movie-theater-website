@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎬 Juwairia's Movie Theater 🍿</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="theater">
+    <div class="header">
+      <h2 class="cinema-name">Juwairia's Cinema</h2>
+
+      <div class="top-right">
+        <button class="sign-in">Sign In</button>
+        <select class="language-selector">
+          <option value="en">English</option>
+          <option value="hi">Hindi</option>
+          <option value="ar">Arabic</option>
+        </select>
+      </div>
+    </div>
+
+    <h1>🎬 Welcome to Juwairia's Cinema 🍿</h1>
+
+    <marquee behavior="scroll" direction="left" scrollamount="10" class="marquee">
+      🎬 Dunki Trailer - Enjoy the Video!🍿
+    </marquee>
+
+    <div class="screen">
+      <div class="lights">
+        <video src="./media/Dunki .mp4" controls autoplay></video>
+      </div>
+
+      <div class="video-info">
+        <h2>Dunki | Official Trailer | Shah Rukh Khan, Rajkumar Hirani, Taapsee Pannu, Vicky Kaushal</h2>
+      </div>
+
+      <div class="video-stats">
+        <span>10M views</span>
+        <span>•</span>
+        <span>Released: Dec 5, 2023</span>
+      </div>
+
+      <div class="action-buttons">
+        <button onclick="document.querySelector('video').currentTime = 0">🔁 Play Again</button>
+        <button>👍 Like</button>
+        <button>👎 Dislike</button>
+        <button>🔗 Share</button>
+        <button>⬇️ Download</button>
+      </div>
+
+      <div class="video-description">
+        <p><strong>Description:</strong> Dunki is an Indian Hindi-language drama film directed by Rajkumar Hirani, starring Shah Rukh Khan in the lead role. 
+        The movie focuses on the journey of a man seeking refuge abroad, dealing with issues of immigration, and exploring human resilience.</p>
+        <p><strong>Cast:</strong> Shah Rukh Khan, Taapsee Pannu, Vicky Kaushal, Rajkumar Hirani</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,161 @@
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #2e1d47, #9f2b8a);
+  color: white;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cinema-name {
+  font-size: 2em;
+  color: #ff69b4;
+  font-family: 'Sacramento', cursive;
+  margin-left: 20px;
+  margin: 0; /* Remove default margin */
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.top-right .sign-in {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.top-right .language-selector {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.theater {
+  padding: 30px;
+  padding-top: 0px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ff69b4;
+  text-shadow: 0 0 10px #ff69b4;
+  margin-bottom: 20px;
+  margin-top: 0; /* Remove default margin */
+}
+
+.marquee {
+  color: #ff69b4;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ff69b4;
+  font-weight: bold;
+}
+
+.screen {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  background-color: #111;
+  border-radius: 15px;
+}
+
+.lights {
+  padding: 10px;
+  display: inline-block;
+  animation: blinkLights 0.1s infinite alternate;
+  border-radius: 12px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video-info {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #ff69b4;
+  font-weight: bold;
+}
+
+.video-stats {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.video-stats span {
+  margin-right: 15px;
+}
+
+.action-buttons button {
+  margin: 10px;
+  padding: 15px 30px;
+  background-color: #ff69b4;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #ff69b4;
+}
+
+.action-buttons button:hover {
+  background-color: #ff1493;
+}
+
+.video-description {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.1em;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+
+/* Buttons styling */
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  background-color: #ff69b4;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #ff69b4;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+/* Keyframes for lights effect */
+@keyframes blinkLights {
+  0% {
+      box-shadow: 0 0 25px #9b2525;
+  }
+  100% {
+      box-shadow: 0 0 50px #ff1493;
+  }
+}
